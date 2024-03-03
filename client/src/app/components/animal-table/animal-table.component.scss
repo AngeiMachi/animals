@@ -1,0 +1,20 @@
+.animal_table {
+    &_type {
+        border-radius: 7px;
+        width: 24px;
+        height:24px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.mat-mdc-row .mat-mdc-cell {
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    cursor: pointer;
+    
+  }
+  .mat-mdc-row:hover .mat-mdc-cell {
+    background-color: rgb(248, 249, 249);
+  }

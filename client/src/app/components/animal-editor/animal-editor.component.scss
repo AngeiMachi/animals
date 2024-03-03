@@ -1,0 +1,29 @@
+.animal-editor {
+    height:100%;
+    width:500px;
+    margin: 50px;
+
+    &_form {
+        min-width: 150px;
+        max-width: 500px;
+        width: 100%;
+
+        &_full-width {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            &_name {
+                width: 80%;
+            }
+            &_actions {
+                width: 40%;
+                display: flex;
+                justify-content: space-between;
+                flex-flow: row-reverse;
+            }
+        }
+        &_description {
+            height: 400px;
+        }
+    }    
+}

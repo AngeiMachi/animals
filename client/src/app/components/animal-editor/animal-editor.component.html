@@ -1,0 +1,45 @@
+<div class="animal-editor">
+    @if (isEditMode) {
+        <h1>Edit {{animal?.name}}</h1>
+    } @else {
+        <h1>Create New</h1>
+    }
+    <form class="animal-editor_form" [formGroup]="animalForm" (ngSubmit)="onSubmit()">
+        <div class="animal-editor_form_full-width">
+            <mat-form-field class="animal-editor_form_full-width_name" >
+                <mat-label>Name</mat-label>
+                <input matInput [value]="animal?.name" formControlName="name">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Animal Type</mat-label>
+                <mat-select [value]="animal?.animalType" formControlName="animalType" >
+                @for (animalType of animalTypes; track animalType) {
+                    <mat-option [value]="animalType">{{ animalType }}</mat-option>
+                }
+                </mat-select>
+            </mat-form-field>
+            
+        </div>
+         
+        <mat-form-field class="animal-editor_form_full-width animal-editor_form_description">
+          <mat-label>Tag Description</mat-label>
+          <textarea matInput  [value]="animal?.desciprtion" formControlName="desciprtion"></textarea>
+        </mat-form-field>
+
+        <div class="animal-editor_form_full-width">
+            <button mat-flat-button type="button" (click)="onClose()">Cancel</button>
+            <div class="animal-editor_form_full-width_actions">
+                @if (isEditMode) {
+                    <button mat-flat-button color="warn" type="button" (click)="deleteAnimal()">
+                        <mat-icon>delete</mat-icon>
+                        delete
+                    </button> 
+                }
+                <button mat-flat-button color="primary" type="submit">
+                    <mat-icon>save</mat-icon>
+                    Save
+                </button> 
+            </div>
+        </div>
+    </form>
+</div>

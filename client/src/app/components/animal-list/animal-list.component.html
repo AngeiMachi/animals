@@ -1,0 +1,7 @@
+<div class="aniaml-list">
+    @for (animal of animals; track animal.id) {
+        <nml-animal-item [animalType]="animal.animalType" [name]="animal.name"> </nml-animal-item>
+      } @empty {
+        Empty list of users
+      }
+</div>

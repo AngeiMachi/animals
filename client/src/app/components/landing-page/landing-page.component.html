@@ -1,0 +1,21 @@
+<main class="main">
+  <mat-drawer-container class="main_container">
+    <mat-drawer #sideNav mode="side" opened="false" position="end">
+      <nml-animal-editor [sideNav]="sideNav" [animal]="slectedAnimal" (close)="slectedAnimal=null"></nml-animal-editor>
+    </mat-drawer>
+    <mat-drawer-content class="main_drawer-content">
+      <nml-management-tool [isTableView]="isTableView" (toggleTableView)="isTableView=$event" (createNewAnimal)="handleSideNavOpen('new')"></nml-management-tool>
+      <div>
+        <mat-form-field class="main_drawer-content_search`">
+          <mat-label>Search</mat-label>
+          <input matInput placeholder="Type here..." (input)="onInputChange($event)">
+        </mat-form-field>
+      </div>
+      @if (isTableView) {
+        <nml-animal-table [animals]="animals$ | async" (rowClick)="handleSideNavOpen('update');slectedAnimal=$event"></nml-animal-table>
+      } @else {
+        <nml-animal-list [animals]="animals$ | async"></nml-animal-list>
+      }
+    </mat-drawer-content>
+  </mat-drawer-container>
+  </main>

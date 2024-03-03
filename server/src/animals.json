@@ -1,0 +1,13 @@
+[{"id":32,"name":"my new cat","desciprtion":"the cat is very sick","animalType":"Rabbit","createDate":"2024-02-29T11:03:28.362Z","lastUpdate":"2024-02-29T18:41:34.337Z","createdBy":"admin"}
+,{"id":2,"name":"Dino","desciprtion":"cute little fella","animalType":"Dinosaur","createDate":"2024-02-29T19:10:01.226Z","lastUpdate":"2024-02-29T19:10:01.226Z","createdBy":"admin"}
+,{"id":3,"name":"Kittie","desciprtion":"My kitty cat","animalType":"Cat","createDate":"2024-02-29T19:10:38.111Z","lastUpdate":"2024-02-29T19:10:38.111Z","createdBy":"admin"}
+,{"id":7,"name":"birddy","desciprtion":"flying fird","animalType":"Bird","createDate":"2024-02-29T19:47:27.733Z","lastUpdate":"2024-02-29T19:47:27.733Z","createdBy":"admin"}
+,{"id":8,"name":"Uni","desciprtion":"Corn power 3","animalType":"Unicorn","createDate":"2024-02-29T19:57:33.767Z","lastUpdate":"2024-02-29T23:16:04.036Z","createdBy":"Natanel"}
+,{"id":9,"name":"piggy","desciprtion":"My Pig Nice","animalType":"Pig","createDate":"2024-02-29T20:31:20.093Z","lastUpdate":"2024-02-29T22:57:57.448Z","createdBy":"admin"}
+,{"id":12,"name":"Mach","desciprtion":"My Dog","animalType":"Dog","createDate":"2024-02-29T20:27:40.562Z","lastUpdate":"2024-02-29T20:27:40.562Z","createdBy":"admin"}
+,{"id":9,"name":"Buggs","desciprtion":"Bunny","animalType":"Rabbit","createDate":"2024-02-29T20:28:50.696Z","lastUpdate":"2024-02-29T20:28:50.696Z","createdBy":"admin"}
+,{"id":9,"name":"piggy","desciprtion":"My Pig","animalType":"Pig","createDate":"2024-02-29T20:31:20.093Z","lastUpdate":"2024-02-29T20:31:20.093Z","createdBy":"admin"}
+,{"id":10,"name":"UniUni","desciprtion":"Beautiful","animalType":"Unicorn","createDate":"2024-02-29T20:34:07.498Z","lastUpdate":"2024-02-29T20:34:07.498Z","createdBy":"admin"}
+,{"id":11,"name":"lassi","desciprtion":"good dog","animalType":"Dog","createDate":"2024-02-29T20:34:28.953Z","lastUpdate":"2024-02-29T20:34:28.953Z","createdBy":"admin"}
+,{"id":12,"name":"Bugs","desciprtion":"Bunny","animalType":"Rabbit","createDate":"2024-02-29T23:10:36.209Z","lastUpdate":"2024-02-29T23:10:36.209Z","createdBy":"Natanel"}
+,{"id":14,"name":"Miss Piggy","desciprtion":"Beautiful Pig","animalType":"Pig","createDate":"2024-03-03T07:12:27.115Z","lastUpdate":"2024-03-03T07:12:56.849Z","createdBy":"Avi"}]

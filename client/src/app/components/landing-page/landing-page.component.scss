@@ -1,0 +1,26 @@
+.main {
+    height:100%;
+    &_container {
+        height: 100%;
+    }
+    &_drawer-content {
+        margin: 16px;
+        height: 100%;
+        &_search{
+            width: 50%;
+        }
+    }
+}
+
+mat-drawer-content {
+    margin-right: 0px !important;
+    flex: 1 1 auto;
+    
+}
+mat-sidenav {
+    flex: 0 1 auto;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}

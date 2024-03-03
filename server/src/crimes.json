@@ -1,0 +1,9 @@
+[{"id":32,"name":"my new cat","desciprtion":"the cat is very sick","animalType":"Rabbit","createDate":"2024-02-29T11:03:28.362Z","lastUpdate":"2024-02-29T18:41:34.337Z","createdBy":"admin"}
+,{"id":2,"name":"Dino","desciprtion":"cute little fella","animalType":"Dinosaur","createDate":"2024-02-29T19:10:01.226Z","lastUpdate":"2024-02-29T19:10:01.226Z","createdBy":"admin"}
+,{"id":3,"name":"Kittie","desciprtion":"My kitty cat","animalType":"Cat","createDate":"2024-02-29T19:10:38.111Z","lastUpdate":"2024-02-29T19:10:38.111Z","createdBy":"admin"}
+,{"id":4,"name":"Pluto","desciprtion":"Love bones","animalType":"Dog","createDate":"2024-02-29T19:20:14.495Z","lastUpdate":"2024-02-29T19:20:14.495Z","createdBy":"admin"}
+,{"id":5,"name":"lassy","desciprtion":"long hair dog","animalType":"Dog","createDate":"2024-02-29T19:20:50.819Z","lastUpdate":"2024-02-29T19:20:50.819Z","createdBy":"admin"}
+,{"id":6,"name":"Piggie","desciprtion":"Nice Pig","animalType":"Pig","createDate":"2024-02-29T19:35:03.786Z","lastUpdate":"2024-02-29T19:35:03.786Z","createdBy":"admin"}
+,{"id":7,"name":"birddy","desciprtion":"flying fird","animalType":"Bird","createDate":"2024-02-29T19:47:27.733Z","lastUpdate":"2024-02-29T19:47:27.733Z","createdBy":"admin"}
+,{"id":8,"name":"Uni","desciprtion":"Corn","animalType":"Unicorn","createDate":"2024-02-29T19:57:33.767Z","lastUpdate":"2024-02-29T19:57:33.767Z","createdBy":"admin"}
+,{"id":9,"name":"nemo","desciprtion":"good fish","animalType":"Fish","createDate":"2024-02-29T20:15:27.630Z","lastUpdate":"2024-02-29T20:16:24.722Z","createdBy":"admin"}]

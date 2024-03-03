@@ -1,0 +1,14 @@
+.management-tool {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    
+    &_views {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        width: 20%;
+    }
+    
+}    

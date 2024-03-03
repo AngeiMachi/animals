@@ -1,0 +1,14 @@
+<div class="management-tool">
+    <h2>Animal Management</h2>
+    <span class="management-tool_views">
+      <button mat-icon-button [disabled]="!isTableView" (click)="this.toggleTableView.emit(!isTableView)" color="primary">
+        <mat-icon >dashboard</mat-icon>
+      </button>
+      <button mat-icon-button [disabled]="isTableView" (click)="this.toggleTableView.emit(!isTableView)" color="primary">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <button mat-icon-button color="primary" (click)="createNewAnimal.emit()">
+        <mat-icon  data-content="add_circle" >add_circle</mat-icon>
+      </button>
+    </span>
+</div>
